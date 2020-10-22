@@ -1,6 +1,6 @@
 public class HW_3_3 {
     public static void main(String[] args) {
-        int a = 4;
+        int a = 41;
         if (a > 10)
             if (a < 100) {
             System.out.println("more than 10");
@@ -8,7 +8,7 @@ public class HW_3_3 {
         } else {
                 System.out.println("Tooo Big");
             }
-        if (a / 2 > 20) {
+        if (a / 2.0 > 20) {
             System.out.println("Result more than 20");
         }
         if (a >= 5 && a <=40) {
@@ -16,5 +16,11 @@ public class HW_3_3 {
         } else {
             System.out.println("less than 5 OR bigger than 40");
         }
+    }
+}
+
+class MyClass {
+    public static void main(String[] args) {
+        
     }
 }

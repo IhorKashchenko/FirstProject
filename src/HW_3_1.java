@@ -6,8 +6,8 @@ public class HW_3_1 {
         } else
             if (a < b) {
                 System.out.println("a < b");
-            }
-        else {
+            }  else {
+
                 System.out.println("a > b");
             }
      }
